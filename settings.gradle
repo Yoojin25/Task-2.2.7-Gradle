@@ -1,0 +1,4 @@
+rootProject.name = 'Task-2.2.7-Gradle'
+include 'src:untitled'
+findProject(':src:untitled')?.name = 'untitled'
+
